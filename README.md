@@ -1,7 +1,11 @@
 ## Overview
 
 This repository contains configurations for using Packer to build an AWS AMI that define
-a box that can be used as an OpenVPN server. It is based on the [docker-base][] image.
+a box that can be used as an OpenVPN server.
+
+## Source Image
+This image is based on the [docker-base][] image. You can find the AMI id of that image
+in Atlas.
 
 ## Release Process
 
