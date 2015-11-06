@@ -21,15 +21,6 @@
   "provisioners": [
     {
       "type": "shell",
-      "execute_command": "{{ .Vars }} sudo -E /bin/bash '{{ .Path }}'",
-      "scripts": [
-        "scripts/update_apt.sh",
-        "scripts/install_python.sh",
-        "scripts/install_ansible.sh"
-      ]
-    },
-    {
-      "type": "shell",
       "inline": [
         "mkdir -p {{user `ansible_staging_dir`}}"
       ]
