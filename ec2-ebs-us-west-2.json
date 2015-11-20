@@ -11,7 +11,7 @@
       "access_key": "{{user `aws_access_key`}}",
       "secret_key": "{{user `aws_secret_key`}}",
       "region": "us-west-2",
-      "source_ami": "ami-c1bea9a0",
+      "source_ami": "ami-50d5c531",
       "instance_type": "m3.medium",
       "ssh_username": "ubuntu",
       "ami_groups": ["all"],
@@ -41,7 +41,7 @@
       "type": "ansible-local",
       "playbook_file": "ansible/packer.yml",
       "extra_arguments": [
-        "--tags openvpn"
+        "--tags aws"
       ],
       "playbook_dir": "ansible",
       "staging_directory": "{{user `ansible_staging_dir`}}"

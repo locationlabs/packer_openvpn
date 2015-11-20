@@ -1,17 +1,16 @@
-# packer-ansible
+# Ansible for Packer builds
 
-## Overview
-These are Ansible scripts used by packer builds to install common
-tools and utilities as well as perform some initial configuration
-and maintenance
+All Ansible tasks should be in role that will be pulled in via `ansible-galaxy`
 
-## Upgrades, configuration and maintenance
+## Adding a Role
+To add a role:
 
-* Upgrade kernel
-* Set timezone
+ 1. Add it to requirement.yml. Note that git as a source is not supported.
+ 2. Use the role in packer.yml.
+ 3. Add the appropriate tag(s) to the role so they will be used by the packer builds.
+ 
+### Tags
+Currently only an EBS AWS image is built. To have your role run in it, give it the `aws` tag.
 
-## Tools
-
-* Docker
-* OpenVPN
-* mysql utilities (client only)
+### Packer Definitions
+You should not need to touch the packer build definitions if you follow the above instructions.

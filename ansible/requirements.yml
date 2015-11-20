@@ -1,5 +1,4 @@
-- src: https://github.com/locationlabs/ansible-role_docker/archive/2.0.tar.gz
+- src: https://github.com/locationlabs/ansible-role_openvpn.git
+  version: master
+  scm: git
   name: docker
-
-- src: https://github.com/locationlabs/ansible-role_docker-base/archive/2.0.tar.gz
-  name: docker-base
