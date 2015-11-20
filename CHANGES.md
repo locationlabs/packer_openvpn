@@ -1,5 +1,8 @@
 # Release Change log
 
+Version 1.3:
+ - fix ansible tag and update README
+
 Version 1.2:
  - fix openvpn galaxy reference
 
