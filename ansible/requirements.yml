@@ -1,4 +1,4 @@
 - src: https://github.com/locationlabs/ansible-role_openvpn.git
   version: master
   scm: git
-  name: docker
+  name: openvpn
