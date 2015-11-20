@@ -1,5 +1,8 @@
 # Release Change log
 
+Version 1.2:
+ - fix openvpn galaxy reference
+
 Version 1.1:
  - updated to newest docker-base source AMI
  - got rid of packer-ansible subtree
