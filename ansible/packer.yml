@@ -3,4 +3,4 @@
 - name: setup openvpn
   hosts: all
   roles:
-    - { role: openvpn, tags: ['openvpn'] }
+    - { role: openvpn, tags: ['aws'] }
