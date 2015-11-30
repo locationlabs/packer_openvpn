@@ -22,6 +22,7 @@ Once Atlas is done building you can find the latest images here:
 
 For an AMI, you can find it's id by looking at the metadata in Atlas.
 
+[docker-base]: https://github.com/locationlabs/packer_docker-base
 [Atlas]: https://atlas.hashicorp.com
 [git-flow]: https://github.com/nvie/gitflow
 [AWS AMIs]: https://atlas.hashicorp.com/llabs/artifacts/openvpn/types/amazon.ami
