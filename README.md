@@ -9,8 +9,8 @@ in Atlas.
 
 ## Release Process
 
-This repo is using [git-flow][]. Once you release and push to master you need to get the definitions
-built by [Atlas][]. You only need to push to master (tags too!) to kick off a build in Atlas.
+Once your changes are merged to master you need to get the definitions
+built by [Atlas][]. You only need to push to master to kick off a build in Atlas.
 
 ### Instance-store definitions
 
@@ -24,5 +24,4 @@ For an AMI, you can find it's id by looking at the metadata in Atlas.
 
 [docker-base]: https://github.com/locationlabs/packer_docker-base
 [Atlas]: https://atlas.hashicorp.com
-[git-flow]: https://github.com/nvie/gitflow
 [AWS AMIs]: https://atlas.hashicorp.com/llabs/artifacts/openvpn/types/amazon.ami
